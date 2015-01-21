@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.zyh.testtoolbar.MainActivity" >
+
+    <!--
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/perm_group_user_dictionary_write"
+        android:orderInCategory="80"
+        android:title="编辑"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/perm_group_camera"
+        android:orderInCategory="90"
+        android:title="分享"
+        app:showAsAction="ifRoom"/>
+    -->
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>
